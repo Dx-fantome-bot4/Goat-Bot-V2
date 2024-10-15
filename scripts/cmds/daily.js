@@ -4,7 +4,7 @@ module.exports = {
 	config: {
 		name: "daily",
 		version: "1.2",
-		author: "NTKhang",
+		author: "GTA",
 		countDown: 5,
 		role: 0,
 		description: {
@@ -20,8 +20,8 @@ module.exports = {
 		},
 		envConfig: {
 			rewardFirstDay: {
-				coin: 100,
-				exp: 10
+				coin: 2000,
+				exp: 20
 			}
 		}
 	},
@@ -36,7 +36,7 @@ module.exports = {
 			saturday: "Thứ 7",
 			sunday: "Chủ nhật",
 			alreadyReceived: "Bạn đã nhận quà rồi",
-			received: "Bạn đã nhận được %1 coin và %2 exp"
+			received: "Bạn đã nhận được %10 coin và %2 exp"
 		},
 		en: {
 			monday: "Monday",
@@ -46,8 +46,8 @@ module.exports = {
 			friday: "Friday",
 			saturday: "Saturday",
 			sunday: "Sunday",
-			alreadyReceived: "You have already received the gift",
-			received: "You have received %1 coin and %2 exp"
+			alreadyReceived: "❌T'as déjà eu ta récompenses...😐🥃",
+			received: "👏Bravo...!!!T'as reçu %10 € et %2 exp...😐🥃"
 		}
 	},
 
@@ -90,3 +90,4 @@ module.exports = {
 		message.reply(getLang("received", getCoin, getExp));
 	}
 };
+		
