@@ -16,7 +16,7 @@ async function handleCommand(api, event, args, message) {
 
         if (!question) {
 
-            return message.reply("❤salut moi c'est jehovanie 🥰🌼je suis la pour t'aider 🙌pose moi ta question 🌼.");
+            return message.reply("salut 😐🥃.");
 
         }
 
@@ -28,7 +28,7 @@ async function handleCommand(api, event, args, message) {
 
 
 
-        api.sendMessage(`༺❀JEHOVANIE❀༻\n━━━━━━━━━━━━━━━━\n${response}\n━━━━━━━━━━━━━━━━`, event.threadID, messageID);
+        api.sendMessage(`\n\n${response}\n😐🥃`, event.threadID, messageID);
 
     } catch (error) {
 
@@ -140,7 +140,7 @@ module.exports = {
 
     config: {
 
-        name: 'ai',
+        name: 'Nyles',
 
         author: 'coffee',
 
@@ -162,13 +162,13 @@ module.exports = {
 
             lastResponseMessageID = messageID;
 
-            api.sendMessage(`༺❀JEHOVANIE❀༻\n━━━━━━━━━━━━━━━━\n${response}\n━━━━━━━━━━━━━━━━`, event.threadID, messageID);
+            api.sendMessage(`\n\n${response}\n😐🥃`, event.threadID, messageID);
 
         } catch (error) {
 
             console.error("Error in onStart:", error.message);
 
-            api.sendMessage("An error occurred while processing your request.", event.threadID);
+            api.sendMessage("An error occurred while processing your request😐🥃.", event.threadID);
 
         }
 
@@ -192,13 +192,13 @@ module.exports = {
 
                 lastResponseMessageID = messageID;
 
-                api.sendMessage(`༺❀JEHOVANIE❀༻\n━━━━━━━━━━━━━━━━\n${response}\n━━━━━━━━━━━━━━━━`, event.threadID, messageID);
+                api.sendMessage(`\n\n${response}\n😐🥃`, event.threadID, messageID);
 
             } catch (error) {
 
                 console.error("Error in onChat:", error.message);
 
-                api.sendMessage("An error occurred while processing your request.", event.threadID);
+                api.sendMessage("Une erreur s'est produite lors du traitement de votre demande😐🥃.", event.threadID);
 
             }
 
