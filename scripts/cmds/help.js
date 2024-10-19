@@ -34,8 +34,7 @@ module.exports = {
 			const categories = {};
 			let msg = "";
 
-			msg += `░░░░█▄█ ▄▀█ ▀█ █▄▀ █▄█░░░
-░░░░░█░ █▀█ █▄ █░█ ░█░░░░\n\n◦❭❯❱ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 & 𝗖𝗔𝗧𝗘𝗚𝗢𝗥𝗬 ❰❮❬◦`; // replace with your name 
+			msg += `\n\n◦❭❯❱ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 & 𝗖𝗔𝗧𝗘𝗚𝗢𝗥𝗬 ❰❮❬◦`; // replace with your name 
 
 			for (const [name, value] of commands) {
 				if (value.config.role > 1 && role < value.config.role) continue;
@@ -76,22 +75,18 @@ module.exports = {
 
 				'https://i.ibb.co/WGR56Bz/image.jpg',
 			
-            	'',
+            	'https://i.imgur.com/buKQSKz.jpeg',
 
-				'',
+				'https://i.imgur.com/Lh7HJtp.jpeg',
 
-				'',
+				'https://i.imgur.com/sGlknPT.jpeg',
 
-				'',
+				'https://i.imgur.com/shCtlQu.jpeg',
 
-				'',
+				'https://i.imgur.com/LFI7siK.jpeg',
 
-				'',                                    
-				
-                '', 
-
-				'',
-			];
+				'https://i.imgur.com/IYMylgZ.jpeg',                                    
+					];
 
 			const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
 
@@ -150,4 +145,4 @@ function roleTextToString(roleText) {
 			return "Unknown role";
 	}
 	}
-
+		
