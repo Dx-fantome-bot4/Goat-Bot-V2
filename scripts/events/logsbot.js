@@ -22,7 +22,7 @@ module.exports = {
 		en: {
 			title: "┌───═━•BOX•━═───┐",
 			ajouté: "\n✅\nEvent: je été ajouté à un nouveau groupe\n- par: %1",
-			supprimer: "\n❌\nEvent: le bot a été expulsé\n- Frappé par un idiot au nom de: %1",
+			supprimer: "\n❌\nEvent: je été expulsé\n- Frappé par un idiot au nom de: %1",
 			footer: "\n- son ID: %1\n- le Groupe: %2\n- le ID du Groupe: %3\n- l'heure: %4"
 		}
 	},
